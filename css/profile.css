@@ -1,0 +1,161 @@
+.container-box {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.container {
+    position: absolute;
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    max-width: 12000px;
+    top: 60px;   
+    width: 88%;
+    padding-top: 4rem;
+}
+
+.item-title {
+    font-weight: 900;
+    font-size: 160px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.sub-container {
+    margin: 120px 0px;
+    gap: 8rem;
+    flex-direction: column;
+}
+
+.item-name {
+    align-items: center;
+    color: #ffffff;
+    column-gap: 2.8rem;
+}
+
+.item-name a {
+    font-weight: 500;
+}
+
+.item-name ul {
+    column-gap: 1.6rem;
+}
+
+.item-info {
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.item-info-title {
+    font-weight: 700;
+    font-size: 3.6rem;
+    margin-bottom: 1.2rem;
+}
+
+.item-info-sub-title {
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin-bottom: 2.4rem;
+}
+
+.item-info-text {
+    line-height: 180%;
+    margin-bottom: 0.8rem;
+    color: #ffffff;
+}
+
+.item-career {
+    color: #ffffff;
+    gap: 2.4rem;
+
+}
+
+.item-career-day {
+    flex-direction: column;
+    color: rgba(180, 180, 180, 1);
+    gap: 1.6rem;
+}
+
+.item-career-name {
+    text-align: justify;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.item-History-container {
+    color: #ffffff;
+    gap: 2.4rem;
+}
+
+.item-History {
+    flex-direction: column;
+    gap: 2.4rem;
+    line-height: 200%;
+    font-weight: 100;
+    flex-grow: 1;
+}
+
+.item-History-text {
+    color: rgba(180, 180, 180, 1);
+    line-height: 140%;
+}
+
+@media (max-width: 1023px) {
+        .container {
+        width: 88%;
+    }
+    .item-title {
+        font-size: 8.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+
+    .item-title {
+        font-size: 6rem;
+    }
+
+    .sub-container {
+        margin: 80px 0px;
+    }
+
+    .item-name,
+    .item-name ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .item-name {
+        gap: 1.6rem;
+    }
+
+    .item-name ul {
+        gap: 0.8rem;
+    }
+
+    .item-info-title {
+        line-height: 120%;
+    }
+
+    .item-info-sub-title {
+        line-height: 140%;
+    }
+
+    .item-info-text {
+    line-height: 200%;
+        margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+    
+    .item-History-container {
+        flex-direction: column;
+    }
+
+}
